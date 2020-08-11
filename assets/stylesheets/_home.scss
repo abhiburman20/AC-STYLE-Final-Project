@@ -1,0 +1,53 @@
+.logo {
+  position: absolute;
+  z-index: 902;
+  width: 40rem;
+  top: 10.5rem;
+  left: 20rem;
+}
+
+// INTRODUCTION
+.introduction {
+  margin: 5rem 0 0 31rem;
+}
+h1 {
+  font-size: 5rem;
+  padding: 2rem 0 0 10rem;
+  color: $logo-color;
+  text-shadow: 5px 4px 12px black;
+}
+.tagline {
+  color: #ffdf2b;
+  font-family: $instruction-font;
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  text-shadow: 5px 4px 12px black;
+  margin: 7rem 0 0 -1rem;
+}
+
+// KEYBOARD - Instruction
+.keyboard {
+  text-align: center;
+  width: 15rem;
+  margin: -5rem 0 0 4rem;
+}
+.keyboard-arrow {
+  width: 2.5rem;
+  text-shadow: 5px 2px 5px $primary-color;
+}
+.arrow-instruction {
+  font-size: 1.2rem;
+  color: white;
+  text-shadow: 5px 2px 5px $primary-color;
+  word-spacing: 0.1rem;
+}
+
+// INTRO GIF
+
+.intro-gif {
+  z-index: -10;
+  top: -2.3rem;
+  width: 25rem;
+  position: absolute;
+  left: 183%;
+}

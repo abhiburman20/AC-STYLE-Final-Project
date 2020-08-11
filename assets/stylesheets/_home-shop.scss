@@ -1,0 +1,138 @@
+.notice-board {
+  position: absolute;
+  z-index: -1;
+  width: 10rem;
+}
+.shop-board {
+  margin: 26.5rem 0 0 -5rem;
+}
+.notice-heading {
+  font-family: $heading-font;
+  font-weight: bolder;
+  font-size: 2rem;
+  display: inline-block;
+  padding: 3rem 0 0 2.5rem;
+  color: $primary-color;
+  text-decoration: none;
+  text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.3);
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+// Shopping
+
+.dog-shopping,
+.cat-shopping {
+  position: absolute;
+  z-index: 905;
+  width: 25rem;
+  top: 13.8rem;
+  margin: 0 0 0 32rem;
+}
+.cat-shopping {
+  z-index: -1;
+  width: 12rem;
+  top: 8.2rem;
+  margin: 0 0 0 102.5rem;
+}
+
+.dog-shop-heading,
+.cat-shop-heading {
+  width: 40rem;
+  color: #f9cfd5;
+  font-size: 5rem;
+  line-height: 1;
+  word-spacing: 1rem;
+  margin: -19rem 0 0 25rem;
+  text-shadow: 5px 4px 12px black;
+}
+.cat-shop-heading {
+  color: #6b6b6b;
+  width: 60rem;
+  margin: -19rem 0 0 75rem;
+}
+.sale {
+  position: absolute;
+  width: 8rem;
+  left: 188.8rem;
+  top: 9.2rem;
+}
+.shop-button-item {
+  width: 10rem;
+  border-radius: 2em !important;
+  left: 104rem;
+  top: 20.2rem;
+  background-color: $primary-color !important;
+  border: none !important;
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+.shop-text-color {
+  color: #323232;
+  text-shadow: 5px 4px 12px #6b6b6b;
+}
+// DOG - BUTTONS
+
+.bouncy {
+  animation: bouncy 5s infinite linear;
+  position: relative;
+  color: #f9cfd5;
+  display: inline-block;
+  &:hover {
+    background-color: #f9cfd5;
+    color: white;
+  }
+}
+@keyframes bouncy {
+  0% {
+    top: 0em;
+  }
+  40% {
+    top: 0em;
+  }
+  43% {
+    top: -0.9em;
+  }
+  46% {
+    top: 0em;
+  }
+  48% {
+    top: -0.4em;
+  }
+  50% {
+    top: 0em;
+  }
+  100% {
+    top: 0em;
+  }
+}
+
+.dog-shop-button,
+.cat-shop-button {
+  flex-direction: column;
+  width: 10rem;
+  color: #f9cfd5;
+  margin: 0.5rem 0 0 25.5rem;
+  &.cat-shop-button {
+    margin: 2rem 0 0 88rem;
+  }
+}
+.dog-button-item {
+  text-shadow: 5px 4px 12px black;
+  border: 0.1em solid #f9cfd5 !important;
+  box-shadow: 5px 4px 12px black;
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+.cat-button-item {
+  text-shadow: 5px 4px 12px black;
+  border: 0.1em solid grey !important;
+  box-shadow: 5px 4px 10px black;
+  &:hover {
+    background-color: #323232 !important;
+    transform: scale(1.2);
+  }
+}

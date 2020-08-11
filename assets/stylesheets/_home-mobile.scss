@@ -1,0 +1,99 @@
+@media screen and (min-width: 500px) {
+  .btn-mobo {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .btn-mobo {
+    display: inline-flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: $primary-color;
+    h3 {
+      margin-bottom: 1rem;
+      text-shadow: 5px 4px 12px black;
+      font-weight: 600;
+    }
+  }
+  .outer-wrapper {
+    display: none;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 823px) {
+  html {
+    font-size: 8.8px;
+  }
+  .shop {
+    margin-left: 10rem;
+  }
+  .local {
+    margin-left: 82rem;
+  }
+  .professional {
+    margin-left: 117rem;
+  }
+  .tree2 {
+    z-index: -1;
+  }
+  .background {
+    display: none;
+  }
+  body {
+    background-color: #9ccf2f;
+    background-size: auto 360px;
+    background-repeat: repeat-x;
+    background-image: url(../images/seemless.jpg);
+  }
+  .intro-gif {
+    display: none;
+  }
+  .clouds {
+    z-index: 902;
+  }
+  .cat-walking {
+    left: 350rem;
+  }
+  .dog-running {
+    left: 380rem;
+  }
+}
+@media screen and (min-width: 824px) and (max-width: 1024px) {
+  html {
+    font-size: 18px;
+  }
+  .local {
+    margin-left: 72rem;
+  }
+  .professional {
+    margin-left: 117rem;
+  }
+  .intro-gif {
+    display: none;
+  }
+  .tree2 {
+    z-index: -1;
+  }
+  .clouds {
+    z-index: 902;
+  }
+  .cat-walking {
+    left: 350rem;
+  }
+  .background {
+    display: none;
+  }
+  body {
+    background-color: #9ccf2f;
+    background-size: auto 768px;
+    background-repeat: repeat-x;
+    background-image: url(../images/seemless.jpg);
+  }
+  
+  .dog-running {
+    left: 380rem;
+  }
+}

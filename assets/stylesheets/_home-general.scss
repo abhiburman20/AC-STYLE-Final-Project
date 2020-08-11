@@ -1,0 +1,54 @@
+.item {
+    width: 100vw;
+}
+.background {
+    position: absolute;
+    z-index: -100;
+    width: 190%;
+    height: 660px;
+    &.background-2 {
+        left: 180%;
+    }
+    &.background-3 {
+        left: 370%;
+    }
+}
+.outer-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 400vw;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.article {
+    padding: 2%;
+}
+.heading {
+    font-weight: bolder;
+    font-family: $heading-font;
+}
+.medium-heading {
+    font-weight: bold;
+    font-family: $heading-font;
+}
+.instructions {
+    font-weight: 80rem;
+    font-family: $instruction-font;
+}
+a.button{
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    text-shadow: 5px 4px 12px black;
+    box-shadow: 5px 4px 12px black;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family: $heading-font;
+    font-weight:600;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+}

@@ -1,0 +1,233 @@
+// OBJECTS BASE
+
+.fixed {
+    position: fixed;
+}
+
+// FIXED IMAGES
+
+.fixed-man-dog {
+    top: 28.5rem;
+    left: 8rem;
+    z-index: 1000;
+    width: 16rem;
+}
+// TREES
+
+.trees {
+    position: absolute;
+    z-index: 900;
+    width: 10rem;
+    top: 21rem;
+    left: 64rem;
+    &.tree-2 {
+        left: 150rem;
+    }
+    &.tree-3 {
+        left: 235rem;
+    }
+    &.tree-4 {
+        left: 321rem;
+        z-index: -2;
+    }
+}
+.tree2 {
+    position: absolute;
+    z-index: 900;
+    width: 7rem;
+    left: 28rem;
+    top: 30.5rem;
+    &.tree2-2 {
+        left: 106.5rem;
+    }
+    &.tree2-3 {
+        left: 210rem;
+    }
+    &.tree2-4 {
+        left: 380rem;
+    }
+}
+
+// MOTION IMAGES
+
+//MEN WITH DOG
+.men-dog-walk {
+    position: absolute;
+    z-index: 906;
+    width: 15rem;
+    animation: motionx-y 30s linear infinite;
+    -webkit-animation: motionx-y 30s linear infinite;
+	-moz-animation: motionx-y 30s linear infinite;
+    -o-animation: motionx-y 30s linear infinite;
+    top: 25rem;
+}
+@keyframes motionx-y {
+	0% {margin-left: 0%;}
+    100% {margin-left: 530%;}
+}
+//CAT & DOG WALKING from R-L
+.cat-walking,
+.dog-walking {
+    position: absolute;
+    z-index: 906;
+    width: 12rem;
+    animation: walking-R-L 100s linear infinite;
+    -webkit-animation: walking-R-L 100s linear infinite;
+	-moz-animation: walking-R-L 100s linear infinite;
+    -o-animation: walking-R-L 100s linear infinite;
+}
+@keyframes walking-R-L {
+	0% {margin-left: 0%;}
+    100% {margin-left: -550%;}
+}
+.cat-walking {
+    top: 32rem;
+    left: 465rem;
+}
+.dog-walking {
+    top: 34.2rem;
+    z-index: 1010;
+    width: 10rem;
+    left: 280rem;
+}
+// DOG - RUNNING
+.dog-running {
+    position: absolute;
+    z-index: 906;
+    width: 12rem;
+    animation: walking-R-L 30s linear infinite;
+    -webkit-animation: walking-R-L 30s linear infinite;
+	-moz-animation: walking-R-L 30s linear infinite;
+    -o-animation: walking-R-L 30s linear infinite;
+}
+.dog-running {
+    top: 32rem;
+    left: 460rem;
+    transform: rotateY(180deg);
+}
+// CAT- hanging
+
+//CLOUDS
+.clouds {
+    position: absolute;
+    z-index: 900;
+    width: 15rem;
+    animation: movingclouds 25s linear infinite;
+    -webkit-animation: movingclouds 25s linear infinite;
+	-moz-animation: movingclouds 25s linear infinite;
+    -o-animation: movingclouds 25s linear infinite;
+    top: 8%;
+    left: 100%;
+    &.clouds2-1 {
+        top: 9%;
+        left: 75%;    
+    }
+    //ITEM2
+    &.clouds1-2 {
+        left: 40%;
+        top: 10%;
+    }
+    &.clouds2-2 {
+        left: 10%;
+        top: 12%;   
+    }
+    //ITEM3
+    &.clouds1-3 {
+        left: 150%;
+        top: 8%;
+    }
+    &.clouds2-3 {
+        top: 9%;
+        left: 175%;    
+    }
+    //ITEM4
+    &.clouds1-4 {
+        z-index: 902;
+        left: 200%;
+        top: 10%;
+    }
+    &.clouds2-4 {
+        left: 120%;
+        top: 12%;   
+    }
+    //ITEM5
+    &.clouds1-5 {
+        z-index: 902;
+        left: 250%;
+        top: 8%;
+    }
+    &.clouds2-5 {
+        top: 9%;
+        left: 275%;    
+    }
+    //ITEM6
+    &.clouds1-6 {
+        z-index: 902;
+        left: 300%;
+        top: 10%;
+    }
+    &.clouds2-6 {
+        left: 220%;
+        top: 12%;   
+    }
+    //ITEM7
+    &.clouds1-7 {
+        left: 350%;
+        top: 8%;
+    }
+    &.clouds2-7 {
+        top: 9%;
+        left: 375%;    
+    }
+    //ITEM8
+    &.clouds1-8 {
+        left: 400%;
+        top: 10%;
+    }
+    &.clouds2-8 {
+        left: 320%;
+        top: 12%;   
+    }
+    //ITEM8
+    &.clouds1-9 {
+        left: 450%;
+        top: 8%;
+    }
+    &.clouds2-9 {
+        left: 475%;
+        top: 9%;   
+    }
+    //ITEM8
+    &.clouds1-10 {
+        left: 500%;
+        top: 10%;
+    }
+    &.clouds2-10 {
+        left: 520%;
+        top: 12%;   
+    }
+    
+}
+@keyframes movingclouds {
+	0% {margin-left: 0%;}
+    100% {margin-left: -100%;}
+}
+// OBJECTS WALKING
+
+
+//SECTION-SHOP
+
+.shop-white-dog,
+.shop-white-cat {
+    position: absolute;
+    width: 8rem;
+    top: 29rem;
+    margin-left: 172%;
+    &.shop-white-cat {
+        margin-left: 14%;
+        top: 28rem;
+    }
+}
+
+
+

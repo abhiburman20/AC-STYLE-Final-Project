@@ -1,0 +1,49 @@
+.professional {
+  margin: 0 0 0 135rem;
+}
+.professional-board {
+  margin-top: 26.5rem;
+}
+.veterian-logo {
+  position: absolute;
+  width: 12rem;
+  top: 18rem;
+  margin-left: 20rem;
+}
+.professional-heading {
+  font-size: 1.2rem;
+  padding: 3.5rem 0 0 0.6rem;
+}
+.professional-shopping {
+  position: absolute;
+  width: 12rem;
+  top: 12.8rem;
+  margin-left: 50rem;
+}
+.professional-shop {
+  text-align: center;
+  margin-left: 10rem;
+}
+.professional-shop-heading {
+  width: 35rem;
+  text-align: left;
+  color: #f8f8f6;
+  font-size: 5rem;
+  line-height: 1;
+  word-spacing: 0rem;
+  margin: -15rem 0 0 22.5rem;
+  text-shadow: 5px 4px 12px black;
+}
+.professional-shop-button {
+  width: 31rem;
+  color: #f9cfd5;
+  margin: 1rem 0 0 28rem;
+  justify-content: space-evenly;
+}
+.professional-button-item {
+  text-shadow: 5px 4px 12px black;
+  box-shadow: 5px 4px 10px black;
+  &:hover {
+    background-color: #3d3d3d !important;
+  }
+}
